@@ -1,0 +1,8 @@
+name: ipy_tests
+dependencies:
+    - python=3
+    - numpy
+    - nose
+    - jupyter
+    - pip:
+        - git+https://github.com/datacamp/ipython_nose@v0.4.1
